@@ -1,0 +1,43 @@
+#zuiwaibian{/*最外边div设置*/
+    width:400px;
+    height:600px;
+    background-color:#63e95e;
+    margin: 0 auto;
+}
+
+#caidan{/*上边显示分数区域*/
+    width:100%;
+    height:150px;
+    margin-top:6px;
+    background-color:#58968b;
+    /* 设置字体样式 */
+    font-size:50px;
+    text-align:center;
+    line-height:150px;
+    color:#fff;
+}
+
+#youxi{/*下边游戏界面设置*/
+    width:400px;
+    height:400px;
+    background:#34d3cb;
+    margin-top:10px;
+}
+
+.model{  /*小方块*/
+    float:left;
+    margin-left:8px;
+    margin-top:8px;
+    width:90px;
+    height:90px;
+    background-color:rgb(205, 193, 179);
+    border-radius:5px;
+}
+
+#restart{
+    background: #00d8ff;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}

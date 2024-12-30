@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 game</title>
+    <!-- <embed src="./music/bjmusic.mp3" hidden="true" autostart="true" loop="true"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <div id="zuiwaibian">
+        <div id="caidan">0</div><!--显示分数的部分-->
+
+        <div id="youxi"><!--游戏区域-->
+            <!--16个小方块-->
+            <div id="a1" class="model"></div>
+            <div id="a2" class="model"></div>
+            <div id="a3" class="model"></div>
+            <div id="a4" class="model"></div>
+            <div id="b1" class="model"></div>
+            <div id="b2" class="model"></div>
+            <div id="b3" class="model"></div>
+            <div id="b4" class="model"></div>
+            <div id="c1" class="model"></div>
+            <div id="c2" class="model"></div>
+            <div id="c3" class="model"></div>
+            <div id="c4" class="model"></div>
+            <div id="d1" class="model"></div>
+            <div id="d2" class="model"></div>
+            <div id="d3" class="model"></div>
+            <div id="d4" class="model"></div>
+        </div>
+        <button id="restart" onclick="restart()">重新开始</button>
+    </div>
+    <style type="text/css">
+        audio {
+            display: none;
+        }
+    </style>
+</body>
+
+</html>
